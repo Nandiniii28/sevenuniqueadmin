@@ -1,0 +1,51 @@
+.para{
+    background-image: url(../../../../public/images/laptop.jpg)
+}
+.big-img{
+height: 200px;
+width: auto;
+}
+.Drop{
+background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.edit {
+    color: #6c757d;
+    transition: color 0.3s ease;
+  }
+
+  .edit:hover {
+    color: #000;
+  }
+  .edit-l {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+
+  .edit-l:hover {
+    color: #000;
+  }
+
+
+
+  .delete {
+    color: #6c757d;
+    transition: color 0.3s ease;
+  }
+
+  .delete:hover {
+    color: #000;
+  }
+
+  .delete-l {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+
+  .delete-l:hover {
+    color: #000;
+  }
+
+.box:hover{
+cursor: pointer;
+}
+

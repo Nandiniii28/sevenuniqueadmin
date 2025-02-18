@@ -277,7 +277,7 @@ export default function Dashboard() {
                   </div>
                   <h4 class="mb-0">42</h4>
                 </div>
-                <p class="mb-1">Order Revenue</p>
+                <p class="mb-1">Lead</p>
                 <p class="mb-0">
                   <span class="text-heading text-success fw-medium me-2">+18.2%</span>
                   <small class="text-muted">than last week</small>
@@ -294,7 +294,7 @@ export default function Dashboard() {
                   </div>
                   <h4 class="mb-0">8</h4>
                 </div>
-                <p class="mb-1">Products</p>
+                <p class="mb-1">Users</p>
                 <p class="mb-0">
                   <span class="text-heading text-danger fw-medium me-2">-8.7%</span>
                   <small class="text-muted">than last week</small>
@@ -311,7 +311,7 @@ export default function Dashboard() {
                   </div>
                   <h4 class="mb-0">13</h4>
                 </div>
-                <p class="mb-1">Customers</p>
+                <p class="mb-1">Total Post</p>
                 <p class="mb-0">
                   <span class="text-heading text-success fw-medium me-2">+5.5%</span>
                   <small class="text-muted">than last week</small>
