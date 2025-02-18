@@ -17,7 +17,6 @@ import AddPost from  "./components/Pages/Post/AddPost"
 import User from "./components/Pages/SU_User/User";
 import SU_lead from "./components/Pages/SU_lead/SU_lead";
 import FR_User from "./components/Pages/FR_User/FR_User";
-import FU_User from "./components/Pages/FU_User/FU_User";
 import FR_Lead from "./components/Pages/FR_User/FR_Lead";
 import FU_Lead from "./components/Pages/FU_Lead/FU_Lead";
 
@@ -63,17 +62,15 @@ const shouldHide =hidePage.includes(location.pathname)
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/blog" element={<Blog />} />
-
               <Route path="/Blog_Review" element={<Blog_Review />} />
               <Route path="/Login_page" element={<Login_page />} />
               <Route path="/Manage_Category" element={<Manage_Category />} />
-
               <Route path="/add-post" element={<AddPost />} />
               <Route path="/su-lead" element={<SU_lead/>} />
               <Route path="/su-user" element={<User/>} />
-              <Route path="/fu-contact-form-data" element={<FU_Lead/>} />
-              <Route path="/fu-user" element={<FU_User />} />
-              <Route path="/fr-user-data" element={<FR_User />} />
+              <Route path="/fu-lead" element={<FU_Lead/>} />
+              <Route path="/fr-lead" element={<FR_Lead />} />
+              <Route path="/fr-user" element={<FR_User />} />
 
             </Routes>
           </main>
