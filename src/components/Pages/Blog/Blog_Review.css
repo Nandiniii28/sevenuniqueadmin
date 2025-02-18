@@ -1,0 +1,26 @@
+.para-content{
+color: darkgrey;
+}
+.Image-Mark{
+height: 360px;
+}
+.comments-sec{
+background-color: aliceblue;
+}
+
+.card-header {
+    background-color: transparent;
+    padding: 25px;
+    -webkit-padding-after: 0 !important;
+    padding-block-end: 0 !important;
+    border: none;
+    display: flex;
+
+    justify-content: space-between;
+}
+ .card-body {
+    padding: 25px;
+}
+.add-comment{
+background-color: rgb(247, 246, 246);
+}
