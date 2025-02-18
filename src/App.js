@@ -13,7 +13,7 @@ import User from "./components/Pages/SU_User/User";
 import SU_lead from "./components/Pages/SU_lead/SU_lead";
 import FR_User from "./components/Pages/FR_User/FR_User";
 import FU_User from "./components/Pages/FU_User/FU_User";
-import FU_Lead from "./components/Pages/FU_Lead/FU_Lead";
+import FR_Lead from "./components/Pages/FR_User/FR_Lead";
 function App() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const toggleSidebar = () => {
@@ -49,9 +49,9 @@ function App() {
               <Route path="/add-post" element={<AddPost />} />
               <Route path="/su-lead" element={<SU_lead/>} />
               <Route path="/su-user" element={<User/>} />
-              <Route path="/fu-contact-form-data" element={<FU_Lead/>} />
+              <Route path="/fr-lead" element={<FR_Lead/>} />
+              <Route path="/fr-user" element={<FR_User />} />
               <Route path="/fu-user" element={<FU_User />} />
-              <Route path="/fr-user-data" element={<FR_User />} />
             </Routes>
           </main>
         </div>

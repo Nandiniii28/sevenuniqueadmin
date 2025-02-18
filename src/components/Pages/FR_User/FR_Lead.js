@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../SU_lead/SU_lead.css"
 
-function FU_Lead() {
+function FR_Lead() {
       const [hoveredMessage, setHoveredMessage] = useState(null);
       const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
     
@@ -85,4 +85,4 @@ function FU_Lead() {
   )
 }
 
-export default FU_Lead
+export default FR_Lead
