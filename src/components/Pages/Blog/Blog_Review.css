@@ -3,6 +3,7 @@ color: darkgrey;
 }
 .Image-Mark{
 height: 360px;
+object-fit: cover;
 }
 .comments-sec{
 background-color: aliceblue;

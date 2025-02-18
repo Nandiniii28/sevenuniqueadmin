@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons
 import '../style/style.css';
+import { Link } from "react-router-dom";
 const Header = ({ toggleSidebar }) => {
   return (
     <header
@@ -29,7 +30,10 @@ const Header = ({ toggleSidebar }) => {
       <div className="d-flex align-items-center">
         {/* <i class="bi bi-cart fs-4 text-secondary me-3"></i>
         <i className="bi bi-bell fs-4 text-secondary me-3"></i> */}
-        <i className="bi bi-person-circle fs-4 text-secondary"></i>
+        <Link to="/login_page" className="text-black text-decoration-none">
+        <i className="bi bi-person-circle mt-4 fs-4 text-secondary me-2"></i>
+
+        </Link>
       </div>
     </header>
   );

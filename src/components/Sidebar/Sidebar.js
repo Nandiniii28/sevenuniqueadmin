@@ -30,15 +30,15 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
           <li class="mb-1 mt-5">
             <Link
               to="/"
-              className={`nav-link d-flex align-items-center px-3 py-2 ${
+              className={`nav-link d-flex align-items-center px-3 pt-3 pb-4${
                 isCollapsed ? "justify-content-center" : ""
               } ${handleClick() ? "active" : ""}`}
             >
               <i className="bi bi-house me-3 fs-5"></i>
-              {!isCollapsed && <span>Dashboard</span>}
+              {!isCollapsed && <span className="">Dashboard</span>}
             </Link>
           </li>
-          <li class="mb-1">
+          <li class="mb-1 ">
             <button
               class={`btn btn-toggle align-items-center rounded collapsed dropdown-toggle${
                 isCollapsed ? "justify-content-center" : ""
@@ -51,9 +51,9 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
                 src="/images/su_logo.png"
                 alt="fin-unique-logo"
                 width={20}
-                className="me-2"
+                className="me-2 "
               />
-              {!isCollapsed && <span>Seven Unique</span>}
+              {!isCollapsed && <span className=" ms-2">Seven Unique</span>}
             </button>
             <div class="collapse" id="dashboard-collapse">
               <ul class="btn-toggle-nav  fw-normal pb-1 small">
@@ -134,7 +134,7 @@ const Sidebar = ({ isCollapsed, toggleSidebar }) => {
                 width={20}
                 className="me-2"
               />
-              {!isCollapsed && <span>FinUnique</span>}
+              {!isCollapsed && <span className="ms-2">FinUnique</span>}
             </button>
             <div class="collapse" id="orders-collapse">
               <ul class="btn-toggle-nav  fw-normal pb-1 small">
@@ -162,9 +162,9 @@ Lead
                 src="/images/rummylogo.jpg"
                 alt="fin-unique-logo"
                 width={20}
-                className="me-2 "
+                className="me-2 ps-1"
               />
-              {!isCollapsed && <span>FinUnique Rummy</span>}
+              {!isCollapsed && <span className="ms-2">FinUnique Rummy</span>}
             </button>
             <div class="collapse" id="account-collapse">
               <ul class="btn-toggle-nav  fw-normal pb-1 small">
