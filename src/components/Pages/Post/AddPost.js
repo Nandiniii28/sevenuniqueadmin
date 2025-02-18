@@ -8,8 +8,6 @@ const AddPost = () => {
   const [description, setDescription] = useState("");
   const [author, setAuthor] = useState("");
   const [category, setCategory] = useState("General");
-  const [date, setDate] = useState("");
-  const [time, setTime] = useState("");
   const [activeFormats, setActiveFormats] = useState({});
 
   const toggleFormat = (tag) => {
@@ -49,15 +47,6 @@ const AddPost = () => {
 
   const handleSubmit = () => {
     const content = document.getElementById("editor").innerHTML;
-    console.log("Post Submitted:");
-    console.log("Title:", title);
-    console.log("Description:", description);
-    console.log("Author:", author);
-    console.log("Category:", category);
-    console.log("Date:", date);
-    console.log("Time:", time);
-    console.log("Content:", content);
-
     alert("Post submitted successfully!");
   };
 
@@ -114,23 +103,6 @@ const AddPost = () => {
         </select>
       </div>
 
-      <div className="form-group">
-        <label>Date:</label>
-        <input
-          type="date"
-          value={date}
-          onChange={(e) => setDate(e.target.value)}
-        />
-      </div>
-
-      <div className="form-group">
-        <label>Time:</label>
-        <input
-          type="time"
-          value={time}
-          onChange={(e) => setTime(e.target.value)}
-        />
-      </div>
 
       <div className="toolbar">
         <button

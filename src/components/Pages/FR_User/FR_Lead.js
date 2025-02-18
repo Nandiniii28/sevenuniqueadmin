@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import { MdOutlineDelete } from "react-icons/md";
-import { FaEdit } from "react-icons/fa";
-import { Link } from "react-router-dom"
-import "../SU_User/User.css"
+import "../SU_lead/SU_lead.css"
 
-const FU_Lead = () => {
-     const [hoveredMessage, setHoveredMessage] = useState(null);
+function FR_Lead() {
+      const [hoveredMessage, setHoveredMessage] = useState(null);
       const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
     
       const users = [
@@ -27,7 +24,8 @@ const FU_Lead = () => {
       const truncateMessage = (message, maxLength = 20) => {
         return message.length > maxLength ? message.substring(0, maxLength) + "..." : message;
       };
-        
+    
+      
   return (
     <div className="container user-table-container mt-4">
     <h1 className="mb-4 fs-4 fw-bold ps-1">User Details</h1>
@@ -87,4 +85,4 @@ const FU_Lead = () => {
   )
 }
 
-export default FU_Lead
+export default FR_Lead
